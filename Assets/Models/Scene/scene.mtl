@@ -1,0 +1,662 @@
+
+mtllib scene.mtl
+
+newmtl Grass_2
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd tex/minecraft/entity/grass/Grass_2.jpg
+map_d tex/minecraft/entity/grass/Grass_2.jpg
+
+newmtl Material.003
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex/minecraft/entity/torch/Diffuse.png
+
+newmtl Oak_Leaves
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/entity/tree/Mineways2Skfb-RGBA.png
+map_d tex/minecraft/entity/tree/Mineways2Skfb-RGBA.png
+
+newmtl Oak_Log
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/entity/tree/Mineways2Skfb-RGBA.png
+
+newmtl jmc2obj_unknown
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/jmc2obj/unknown.png
+
+newmtl minecraft_block-andesite
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/andesite.png
+
+newmtl minecraft_block-azure_bluet
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/azure_bluet.png
+map_d tex/minecraft/block/azure_bluet.png
+
+newmtl minecraft_block-beetroots_stage3
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/beetroots_stage3.png
+map_d tex/minecraft/block/beetroots_stage3.png
+
+newmtl minecraft_block-blast_furnace_front
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/blast_furnace_front.png
+
+newmtl minecraft_block-blast_furnace_side
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/blast_furnace_side.png
+
+newmtl minecraft_block-blast_furnace_top
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/blast_furnace_top.png
+
+newmtl minecraft_block-brewing_stand
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/brewing_stand.png
+map_d tex/minecraft/block/brewing_stand.png
+
+newmtl minecraft_block-brewing_stand_base
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/brewing_stand_base.png
+
+newmtl minecraft_block-bricks
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/bricks.png
+
+newmtl minecraft_block-carrots_stage2
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/carrots_stage2.png
+map_d tex/minecraft/block/carrots_stage2.png
+
+newmtl minecraft_block-carrots_stage3
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/carrots_stage3.png
+map_d tex/minecraft/block/carrots_stage3.png
+
+newmtl minecraft_block-cobblestone
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/cobblestone.png
+
+newmtl minecraft_block-composter_bottom
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/composter_bottom.png
+
+newmtl minecraft_block-composter_side
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/composter_side.png
+
+newmtl minecraft_block-composter_top
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/composter_top.png
+map_d tex/minecraft/block/composter_top.png
+
+newmtl minecraft_block-cornflower
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/cornflower.png
+map_d tex/minecraft/block/cornflower.png
+
+newmtl minecraft_block-dandelion
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/dandelion.png
+map_d tex/minecraft/block/dandelion.png
+
+newmtl minecraft_block-diorite
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/diorite.png
+
+newmtl minecraft_block-dirt
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/dirt.png
+
+newmtl minecraft_block-dirt_path_side
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/dirt_path_side.png
+map_d tex/minecraft/block/dirt_path_side.png
+
+newmtl minecraft_block-dirt_path_top
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/dirt_path_top.png
+
+newmtl minecraft_block-farmland_moist
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/farmland_moist.png
+
+newmtl minecraft_block-glass
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/glass.png
+map_d tex/minecraft/block/glass.png
+
+newmtl minecraft_block-glass_pane_top
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/glass_pane_top.png
+map_d tex/minecraft/block/glass_pane_top.png
+
+newmtl minecraft_block-grass_block_side
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/grass_block_side.png
+
+newmtl minecraft_block-grass_block_top
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/grass_block_top.png
+
+newmtl minecraft_block-gravel
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/gravel.png
+
+newmtl minecraft_block-hay_block_side
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/hay_block_side.png
+
+newmtl minecraft_block-hay_block_top
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/hay_block_top.png
+
+newmtl minecraft_block-ladder
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/ladder.png
+map_d tex/minecraft/block/ladder.png
+
+newmtl minecraft_block-leaves_big_oak_bl
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+
+newmtl minecraft_block-mossy_cobblestone
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/mossy_cobblestone.png
+
+newmtl minecraft_block-oak_door_bottom
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/oak_door_bottom.png
+
+newmtl minecraft_block-oak_door_top
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/oak_door_top.png
+map_d tex/minecraft/block/oak_door_top.png
+
+newmtl minecraft_block-oak_fence
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/oak_fence.png
+
+newmtl minecraft_block-oak_log
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/oak_log.png
+
+newmtl minecraft_block-oak_log_top
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/oak_log_top.png
+
+newmtl minecraft_block-oak_planks
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/oak_planks.png
+
+newmtl minecraft_block-oak_trapdoor
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/oak_trapdoor.png
+map_d tex/minecraft/block/oak_trapdoor.png
+
+newmtl minecraft_block-oxeye_daisy
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/oxeye_daisy.png
+map_d tex/minecraft/block/oxeye_daisy.png
+
+newmtl minecraft_block-poppy
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/poppy.png
+map_d tex/minecraft/block/poppy.png
+
+newmtl minecraft_block-potatoes_stage2
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/potatoes_stage2.png
+map_d tex/minecraft/block/potatoes_stage2.png
+
+newmtl minecraft_block-potatoes_stage3
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/potatoes_stage3.png
+map_d tex/minecraft/block/potatoes_stage3.png
+
+newmtl minecraft_block-smooth_stone
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/smooth_stone.png
+
+newmtl minecraft_block-stone
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex/minecraft/block/stone.png
+
+newmtl minecraft_block-tall_grass_bottom
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/tall_grass_bottom.png
+map_d tex/minecraft/block/tall_grass_bottom.png
+
+newmtl minecraft_block-tall_grass_top
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/tall_grass_top.png
+map_d tex/minecraft/block/tall_grass_top.png
+
+newmtl minecraft_block-torch
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/torch.png
+map_d tex/minecraft/block/torch.png
+
+newmtl minecraft_block-water_still
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/water_still.png
+map_d tex/minecraft/block/water_still.png
+
+newmtl minecraft_block-wheat_stage_3
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/wheat_stage_3.png
+map_d tex/minecraft/block/wheat_stage_3.png
+
+newmtl minecraft_block-wheat_stage_4
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/wheat_stage_4.png
+map_d tex/minecraft/block/wheat_stage_4.png
+
+newmtl minecraft_block-wheat_stage_5
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/wheat_stage_5.png
+map_d tex/minecraft/block/wheat_stage_5.png
+
+newmtl minecraft_block-wheat_stage_6
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/wheat_stage_6.png
+map_d tex/minecraft/block/wheat_stage_6.png
+
+newmtl minecraft_block-wheat_stage_7
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/wheat_stage_7.png
+map_d tex/minecraft/block/wheat_stage_7.png
+
+newmtl minecraft_block-white_stained_glass
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/white_stained_glass.png
+map_d tex/minecraft/block/white_stained_glass.png
+
+newmtl minecraft_block-white_stained_glass_pane_top
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/white_stained_glass_pane_top.png
+map_d tex/minecraft/block/white_stained_glass_pane_top.png
+
+newmtl minecraft_block-yellow_stained_glass
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/yellow_stained_glass.png
+map_d tex/minecraft/block/yellow_stained_glass.png
+
+newmtl minecraft_block-yellow_stained_glass_pane_top
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/block/yellow_stained_glass_pane_top.png
+map_d tex/minecraft/block/yellow_stained_glass_pane_top.png
+
+newmtl minecraft_entity-bed-white
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/entity/bed/white.png
+map_d tex/minecraft/entity/bed/white.png
+
+newmtl minecraft_entity-bed-yellow
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/entity/bed/yellow.png
+map_d tex/minecraft/entity/bed/yellow.png
+
+newmtl minecraft_entity-chest-normal
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd tex/minecraft/entity/chest/normal.png
+map_d tex/minecraft/entity/chest/normal.png
