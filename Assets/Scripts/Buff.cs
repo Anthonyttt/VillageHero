@@ -85,9 +85,6 @@ public class Penetrate : Buff
     }
     public override void ApplyBuffToPlayer()
     {
-        
-        // GameObject.FindGameObjectWithTag("arrow").GetComponent<arrowControl>().penetrate = true;
-        // GameObject.FindGameObjectWithTag("fireArrow").GetComponent<arrowControl>().penetrate = true;
         GameObject t = GameObject.FindGameObjectWithTag("arrow");
         if (t != null)
         {
