@@ -56,7 +56,7 @@ public class SceneSwitch : MonoBehaviour
     public void ContinueGame()
     {
         Time.timeScale = 1;
-        GameObject.FindGameObjectWithTag("scene").GetComponent<SceneMove>().moveSpeed = 0.2f;
+        GameObject.FindGameObjectWithTag("scene").GetComponent<SceneMove>().moveSpeed = 50f;
         Destroy(transform.root.gameObject);
     }
 }

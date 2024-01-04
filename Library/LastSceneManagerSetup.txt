@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/8K Skybox Pack Free/Example Scenes/sky-4.unity
+- path: Assets/Scenes/TitleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
