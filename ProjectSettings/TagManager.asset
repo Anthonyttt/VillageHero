@@ -13,6 +13,8 @@ TagManager:
   - sword
   - swordpoint
   - bigchest
+  - score
+  - table
   layers:
   - Default
   - TransparentFX

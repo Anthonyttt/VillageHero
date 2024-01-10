@@ -22,10 +22,6 @@ public class buffCreate : MonoBehaviour
     private void createBuff()
     {
         int limit = 2;
-        // if (player.transform.GetComponent<PlayerControl>().killingHalo)
-        // {
-        //     limit = 3;
-        // }
         for (int i=0;i<4;i++)
         {
             int t = Random.Range(0, limit);

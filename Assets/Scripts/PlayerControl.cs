@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using PlayFab;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerControl : MonoBehaviour
 {
@@ -32,6 +34,9 @@ public class PlayerControl : MonoBehaviour
     private int swordCount = 0;
     private Animator anim;
     private bool gameOver = false;
+    private int score = 0;
+    private Text scoreText;
+    private PlayerfabManager playerfabManager=new PlayerfabManager();
 
     private void Start()
     {
@@ -39,8 +44,11 @@ public class PlayerControl : MonoBehaviour
         //发射箭矢
         StartCoroutine(shotArrow());
         transform.Find("healthy").GetComponent<TextMesh>().text = ((int)Math.Floor(healthy)).ToString();
+        scoreText = GameObject.FindGameObjectWithTag("score").GetComponent<Text>();
+        StartCoroutine(scoreAdd());
         swordPoint = GameObject.FindGameObjectsWithTag("swordpoint");
         anim = transform.GetComponent<Animator>();
+        
     }
 
     void Update()
@@ -72,6 +80,7 @@ public class PlayerControl : MonoBehaviour
             if (!gameOver)
             {
                 Instantiate(gameOverIntface);
+                playerfabManager.SendLeaderBoard(score);
                 gameOver = true;
             }
         }
@@ -86,6 +95,17 @@ public class PlayerControl : MonoBehaviour
             createArrow();
         }
         
+    }
+    
+    // 计分
+    private IEnumerator scoreAdd()
+    {
+        while(true)
+        {
+            yield return new WaitForSeconds(0.1f);
+            score += 1; 
+            scoreText.text = score.ToString();
+        }
     }
     private void createArrow()
     {
