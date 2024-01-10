@@ -20,7 +20,7 @@ public class arrowControl : MonoBehaviour
     private float startX;
     void Start()
     {
-        float speed = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>().arrowSpeed;
+        float speed = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>().player.arrowSpeed;
         GetComponent<Rigidbody>().velocity=Vector3.left*(speed/6f);
         startX = transform.position.x;
     }
