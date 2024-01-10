@@ -39,7 +39,7 @@ public class arrowControl : MonoBehaviour
     {
         if (other.tag == "enemy")
         {
-            if (penetrate==false)
+            if (!penetrate)
             {
                 Destroy(gameObject);
             }

@@ -300,10 +300,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 153991773}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ec5ac64e1f327f4193804d24dc145dc, type: 3}
+  m_Script: {fileID: 11500000, guid: 59411be22585e6b4c97564e3e6640202, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rankButton: {fileID: 2075661604}
 --- !u!224 &156818609 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4080852878387782616, guid: b7c158541d0b9af44be175bf0c087157, type: 3}
@@ -480,6 +479,7 @@ GameObject:
   - component: {fileID: 183176525}
   - component: {fileID: 183176526}
   - component: {fileID: 183176527}
+  - component: {fileID: 183176528}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: table
@@ -619,6 +619,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   listItem: {fileID: 7252524622726959738, guid: 96ef258c27ef9614cac8cf78623a764c, type: 3}
   parent: {fileID: 1674532850}
+--- !u!114 &183176528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183176520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ec5ac64e1f327f4193804d24dc145dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rankButton: {fileID: 2075661604}
 --- !u!1 &241933395
 GameObject:
   m_ObjectHideFlags: 0
@@ -4118,8 +4131,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1704278568}
   m_TextComponent: {fileID: 429619657}
   m_Placeholder: {fileID: 1519604946}
-  m_ContentType: 7
-  m_InputType: 2
+  m_ContentType: 0
+  m_InputType: 0
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0

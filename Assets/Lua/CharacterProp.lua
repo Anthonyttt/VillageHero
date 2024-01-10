@@ -1,6 +1,6 @@
 ﻿player={
     -- 血量
-    healthy = 30.0,
+    healthy = 100.0,
     -- 移动速度
     moveSpeed = 10.0,
     -- 箭矢射击频率
@@ -14,4 +14,4 @@
 }
 
 enemyHealthy=20.0
-bossHealthy=50.0
+bossHealthy=20.0

@@ -9,17 +9,6 @@ using XLua;
 
 public class CatchLua : MonoBehaviour
 {
-    public Player player;
-    private void Start()
-    {
-        LuaEnv luaEnv = new LuaEnv();
-        luaEnv.AddLoader(MyCustomLoader);
-        luaEnv.DoString("require('testLua')");
-        luaEnv.Global.Get("player", out Player player);
-        Debug.Log("healthy:"+player.healthy);
-    }
-    
-
     public byte[] MyCustomLoader(ref string filepath)
     {
         string path = Application.dataPath + "/Lua/" + filepath + ".lua";
@@ -36,7 +25,7 @@ public class CatchLua : MonoBehaviour
     {
         LuaEnv luaEnv = new LuaEnv();
         luaEnv.AddLoader(MyCustomLoader);
-        luaEnv.DoString("require('testLua')");
+        luaEnv.DoString("require('CharacterProp')");
         luaEnv.Global.Get("player", out Player player);
         return player;
     }
@@ -45,7 +34,7 @@ public class CatchLua : MonoBehaviour
     {
         LuaEnv luaEnv = new LuaEnv();
         luaEnv.AddLoader(MyCustomLoader);
-        luaEnv.DoString("require('testLua')");
+        luaEnv.DoString("require('CharacterProp')");
         return luaEnv.Global.Get<float>(type+"Healthy");
     }
 }
