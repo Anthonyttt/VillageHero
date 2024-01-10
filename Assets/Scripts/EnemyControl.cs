@@ -3,15 +3,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class EnemyControl : MonoBehaviour
 {
-    public float BloodVolume=30.0f;
+    public float BloodVolume;
 
     public GameObject chest;
     private GameObject father;
     private bool isBurn = false;
+
+    private CatchLua catchLua=new CatchLua();
     void Start()
     {
+        BloodVolume = catchLua.ToHealthy("enemy");
         father = GameObject.FindGameObjectWithTag("scene");
         transform.Find("healthy").GetComponent<TextMesh>().text = ((int)Math.Floor(BloodVolume)).ToString();
     }
@@ -53,8 +57,8 @@ public class EnemyControl : MonoBehaviour
         }
         else if (other.tag == "Player")
         {
-            other.transform.GetComponent<PlayerControl>().healthy -= BloodVolume*((float)Math.Pow(0.9f,other.transform.GetComponent<PlayerControl>().equipLevel));
-            BloodVolume -= other.GetComponent<PlayerControl>().healthy;
+            other.transform.GetComponent<PlayerControl>().player.healthy -= BloodVolume*((float)Math.Pow(0.9f,other.transform.GetComponent<PlayerControl>().equipLevel));
+            BloodVolume -= other.GetComponent<PlayerControl>().player.healthy;
         }
         
     }

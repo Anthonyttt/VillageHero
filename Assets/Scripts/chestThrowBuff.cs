@@ -22,19 +22,19 @@ public class chestThrowBuff : MonoBehaviour
         {
             if (buffTag[n] == "移动速度")
             {
-                other.GetComponent<PlayerControl>().moveSpeed += value[m];
+                other.GetComponent<PlayerControl>().player.moveSpeed += value[m];
             }
             else if (buffTag[n] == "血量")
             {
-                other.GetComponent<PlayerControl>().healthy += value[m];
+                other.GetComponent<PlayerControl>().player.healthy += value[m];
             }
             else if (buffTag[n] == "箭矢速度")
             {
-                other.GetComponent<PlayerControl>().arrowSpeed += value[m];
+                other.GetComponent<PlayerControl>().player.arrowSpeed += value[m];
             }
             else if (buffTag[n] == "射击频率")
             {
-                other.GetComponent<PlayerControl>().frequency += value[m];
+                other.GetComponent<PlayerControl>().player.frequency += value[m];
             }
             else
             {

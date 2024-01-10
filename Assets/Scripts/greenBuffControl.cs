@@ -21,11 +21,11 @@ public class greenBuffControl : MonoBehaviour
         {
             if (buffTag[n] == "移动速度")
             {
-                other.GetComponent<PlayerControl>().moveSpeed += value[m];
+                other.GetComponent<PlayerControl>().player.moveSpeed += value[m];
             }
             else
             {
-                other.GetComponent<PlayerControl>().healthy += value[m];
+                other.GetComponent<PlayerControl>().player.healthy += value[m];
             }
             Destroy(gameObject);
         }

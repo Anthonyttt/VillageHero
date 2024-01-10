@@ -29,7 +29,7 @@ public class bossArrowControl : MonoBehaviour
         if (other.tag == "Player")
         {
             Destroy(gameObject);
-            other.transform.GetComponent<PlayerControl>().healthy -= harm*((float)Math.Pow(0.9f,other.transform.GetComponent<PlayerControl>().equipLevel));
+            other.transform.GetComponent<PlayerControl>().player.healthy -= harm*((float)Math.Pow(0.9f,other.transform.GetComponent<PlayerControl>().equipLevel));
         }
     }
 

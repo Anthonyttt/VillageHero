@@ -23,11 +23,11 @@ public class blueBuffControl : MonoBehaviour
         {
             if (buffTag[n] == "箭矢速度")
             {
-                other.GetComponent<PlayerControl>().arrowSpeed += value[m];
+                other.GetComponent<PlayerControl>().player.arrowSpeed += value[m];
             }
             else
             {
-                other.GetComponent<PlayerControl>().frequency += value[m];
+                other.GetComponent<PlayerControl>().player.frequency += value[m];
             }
             Destroy(gameObject);
         }

@@ -60,7 +60,7 @@ public class Multishot : Buff
     }
     public override void ApplyBuffToPlayer()
     {
-        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>().arrowCount += 2;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>().player.arrowCount += 2;
         GameObject t = GameObject.FindGameObjectWithTag("arrow");
         if (t != null)
         {

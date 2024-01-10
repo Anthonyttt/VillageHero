@@ -16,7 +16,7 @@ public class redBuffControl : MonoBehaviour
     {
         if (other.tag == "Player")
         { 
-            other.GetComponent<PlayerControl>().rotationSpeed += value[n];
+            other.GetComponent<PlayerControl>().player.rotationSpeed += value[n];
             Destroy(gameObject);
         }
         

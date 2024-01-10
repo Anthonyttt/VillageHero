@@ -9,14 +9,17 @@ public class bossControl : MonoBehaviour
 
     public GameObject arrow;
     public GameObject bigChest;
-    public float healthy = 30.0f;
+    public float healthy ;
 
     private GameObject father;
 
     private bool isBurn=false;
+
+    private CatchLua catchLua=new CatchLua();
     // Start is called before the first frame update
     private void Start()
     {
+        healthy = catchLua.ToHealthy("boss");
         StartCoroutine(shotArrow());
         father = GameObject.FindGameObjectWithTag("scene");
         
@@ -54,8 +57,8 @@ public class bossControl : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            other.transform.GetComponent<PlayerControl>().healthy -= healthy*((float)Math.Pow(0.9f,other.transform.GetComponent<PlayerControl>().equipLevel));
-            healthy -= other.transform.GetComponent<PlayerControl>().healthy;
+            other.transform.GetComponent<PlayerControl>().player.healthy -= healthy*((float)Math.Pow(0.9f,other.transform.GetComponent<PlayerControl>().equipLevel));
+            healthy -= other.transform.GetComponent<PlayerControl>().player.healthy;
         }
         else if (other.tag == "arrow")
         {
